@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>EV Dataset Lab | Research Group</title>
+  <title>Intelligent Transportation and EV Data Lab</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
@@ -13,229 +13,477 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="hero">
-    <div class="container">
-      <div class="hero-top">
-        <p class="eyebrow">Electric Vehicle Data Platform</p>
-        <nav class="nav" aria-label="Primary">
-          <a href="#research">Research</a>
-          <a href="#members">Members</a>
-          <a href="#publications">Publications</a>
-          <a href="#gallery">Gallery</a>
-          <a href="#contact">Contact</a>
-        </nav>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <div class="brand-wrap">
+        <a class="brand" href="#page-home">Intelligent Transportation and EV Data Lab</a>
+        <p class="brand-note">HKUST(GZ) Academic Research Group</p>
       </div>
 
-      <div class="hero-content">
-        <div class="hero-copy">
-          <h1>Intelligent Transportation Research Group</h1>
-          <p class="lead">
-            We build open, structured datasets for electric vehicle analysis,
-            intelligent driving research, and multimodal transportation
-            understanding.
-          </p>
-          <p class="hero-note">
-            Our group integrates vehicle telemetry, environmental context, and
-            real-world mobility scenarios to support reproducible academic
-            research.
-          </p>
-        </div>
-
-        <aside class="hero-panel">
-          <h2>Dataset Focus</h2>
-          <ul class="hero-list">
-            <li>EV energy consumption and SOC behavior</li>
-            <li>Multimodal sensing across cameras, GPS, and CAN/OBD</li>
-            <li>Scenario-aware driving data for downstream modeling</li>
-          </ul>
-        </aside>
-      </div>
+      <nav class="nav" aria-label="Primary">
+        <a href="#page-home">Home</a>
+        <a href="#page-research">Research</a>
+        <a href="#page-members">Members</a>
+        <a href="#page-publications">Publications</a>
+        <a href="#page-dataset">Dataset</a>
+        <a href="#page-contact">Contact</a>
+      </nav>
     </div>
   </header>
 
-  <main>
-    <section id="research" class="section">
-      <div class="container">
-        <div class="section-heading">
-          <p class="section-tag">Research</p>
-          <h2>Core Directions</h2>
-          <p>
-            Our work combines transportation systems, data infrastructure, and
-            machine learning to create high-quality benchmarks for electric
-            mobility research.
+  <main class="site-main">
+    <section class="masthead">
+      <div class="container masthead-grid">
+        <div class="masthead-copy">
+          <p class="eyebrow">Intelligent Mobility Research</p>
+          <h1>Data, sensing, and energy intelligence for next-generation transportation.</h1>
+          <p class="lead">
+            We build academically rigorous datasets and analytical tools for
+            electric vehicles, intelligent transportation systems, autonomous
+            driving data collection, and multimodal mobility understanding.
           </p>
+
+          <div class="chip-row" aria-label="Lab highlights">
+            <span class="chip">Urban mobility analytics</span>
+            <span class="chip">EV energy modeling</span>
+            <span class="chip">Autonomous driving data</span>
+            <span class="chip">Multimodal sensing</span>
+          </div>
         </div>
 
-        <div class="card-grid">
-          <article class="card">
-            <span class="card-index">01</span>
-            <h3>EV Dataset Construction</h3>
-            <p>
-              Curating synchronized vehicle, route, and operational records for
-              robust benchmarking and open scientific use.
-            </p>
-          </article>
-          <article class="card">
-            <span class="card-index">02</span>
-            <h3>Energy and Range Modeling</h3>
-            <p>
-              Studying battery usage, driving behavior, and environment-aware
-              energy prediction for electric vehicles.
-            </p>
-          </article>
-          <article class="card">
-            <span class="card-index">03</span>
-            <h3>Intelligent Driving Analytics</h3>
-            <p>
-              Mining multimodal driving data to understand scenarios, decision
-              patterns, and safety-relevant events.
-            </p>
-          </article>
-          <article class="card">
-            <span class="card-index">04</span>
-            <h3>Urban Mobility Sensing</h3>
-            <p>
-              Integrating spatial, temporal, and vehicle-side observations to
-              support data-driven transportation research in real environments.
-            </p>
-          </article>
-        </div>
+        <aside class="masthead-panel">
+          <p class="section-tag">Faculty Advisor</p>
+          <h2>Ke Ma</h2>
+          <p class="member-role">Assistant Professor</p>
+          <p>
+            Dr. Ke Ma is an Assistant Professor in Intelligent Transportation
+            at HKUST(GZ). His research focuses on connected and automated
+            vehicles, control theory, energy and emissions, and machine
+            learning.
+          </p>
+
+          <div class="meta-list">
+            <p><strong>Affiliation:</strong> The Hong Kong University of Science and Technology (Guangzhou)</p>
+            <p><strong>Research Area:</strong> Intelligent Transportation</p>
+            <p><strong>Email:</strong> itevlab@example.edu</p>
+          </div>
+        </aside>
       </div>
     </section>
 
-    <section id="members" class="section alt">
+    <section class="page-shell">
       <div class="container">
-        <div class="section-heading">
-          <p class="section-tag">Members</p>
-          <h2>Research Team</h2>
-          <p>
-            We are a cross-disciplinary group spanning transportation
-            engineering, data systems, and intelligent vehicles.
+        <div class="page-shell-head">
+          <div>
+            <p class="section-tag">Navigation</p>
+            <h2>Laboratory Sections</h2>
+          </div>
+          <p class="shell-note">
+            Select a section from the top menu to switch between dedicated
+            lab pages.
           </p>
         </div>
 
-        <div class="member-grid">
-          <article class="member-card">
-            <div class="avatar">PI</div>
-            <h3>Prof. XXX</h3>
-            <p class="member-role">Principal Investigator</p>
-            <p>
-              Leads the group's research in intelligent transportation systems
-              and data-centric mobility analysis.
-            </p>
+        <div class="page-stage">
+          <article id="page-home" class="page-panel default-panel">
+            <div class="panel-heading">
+              <div>
+                <p class="section-tag">Home</p>
+                <h2>Welcome to the Lab</h2>
+              </div>
+              <p class="panel-kicker">Research group homepage</p>
+            </div>
+
+            <div class="home-layout">
+              <section class="card feature-card">
+                <h3>Lab Introduction</h3>
+                <p>
+                  The Intelligent Transportation and EV Data Lab studies
+                  data-driven mobility systems through field experiments,
+                  sensing infrastructure, and interpretable modeling. Our work
+                  connects transportation engineering, intelligent vehicles, and
+                  machine learning to support reproducible academic research.
+                </p>
+                <p>
+                  We focus on building reliable datasets and practical methods
+                  that can be used by researchers working on EV operation,
+                  driving intelligence, traffic analysis, and sustainable urban
+                  mobility.
+                </p>
+              </section>
+
+              <section class="card side-card">
+                <h3>Research Focus</h3>
+                <ul class="doc-list">
+                  <li>Intelligent transportation and scenario-aware traffic analysis</li>
+                  <li>Autonomous driving data collection with synchronized sensors</li>
+                  <li>EV energy consumption, charging, and route-dependent efficiency</li>
+                  <li>Multimodal sensing and data fusion for mobility intelligence</li>
+                </ul>
+              </section>
+            </div>
+
+            <div class="insight-grid">
+              <article class="mini-card">
+                <span class="card-index">01</span>
+                <h3>Field Data</h3>
+                <p>On-road experiments, sensor calibration, and structured data curation for real traffic environments.</p>
+              </article>
+              <article class="mini-card">
+                <span class="card-index">02</span>
+                <h3>Modeling</h3>
+                <p>Energy prediction, traffic analytics, and multimodal learning pipelines grounded in interpretable methods.</p>
+              </article>
+              <article class="mini-card">
+                <span class="card-index">03</span>
+                <h3>Open Research</h3>
+                <p>Benchmark-oriented academic outputs, transparent workflows, and collaborative dataset construction.</p>
+              </article>
+            </div>
           </article>
-          <article class="member-card">
-            <div class="avatar">YW</div>
-            <h3>Yonglin Weng</h3>
-            <p class="member-role">Research Assistant</p>
-            <p>
-              Supports EV dataset curation, experiment design, and deployment
-              of data collection workflows.
-            </p>
+
+          <article id="page-research" class="page-panel">
+            <div class="panel-heading">
+              <div>
+                <p class="section-tag">Research</p>
+                <h2>Research Directions</h2>
+              </div>
+              <p class="panel-kicker">Core topics and methodology</p>
+            </div>
+
+            <div class="research-grid">
+              <article class="card">
+                <span class="card-index">01</span>
+                <h3>Intelligent Transportation</h3>
+                <p>
+                  We study mobility dynamics, traffic scenarios, and vehicle
+                  operations to support data-driven intelligent transportation
+                  planning and system analysis.
+                </p>
+              </article>
+
+              <article class="card">
+                <span class="card-index">02</span>
+                <h3>Autonomous Driving Data Collection</h3>
+                <p>
+                  Our group develops synchronized data collection workflows that
+                  combine cameras, GPS, vehicle telemetry, and contextual
+                  annotations in real urban driving environments.
+                </p>
+              </article>
+
+              <article class="card">
+                <span class="card-index">03</span>
+                <h3>EV Energy Analysis</h3>
+                <p>
+                  We analyze battery state, energy consumption, charging
+                  behavior, and route-aware efficiency to understand practical
+                  performance in electric mobility systems.
+                </p>
+              </article>
+
+              <article class="card">
+                <span class="card-index">04</span>
+                <h3>Multimodal Sensing and Data Fusion</h3>
+                <p>
+                  We integrate heterogeneous sensing streams to improve scenario
+                  understanding, model robustness, and downstream mobility
+                  intelligence.
+                </p>
+              </article>
+            </div>
+
+            <section class="card research-method">
+              <h3>Research Pipeline</h3>
+              <div class="pipeline">
+                <div class="pipeline-step">
+                  <strong>Step 1</strong>
+                  <p>Collect on-road vehicle, environment, and traffic context data.</p>
+                </div>
+                <div class="pipeline-step">
+                  <strong>Step 2</strong>
+                  <p>Synchronize, clean, and structure multimodal datasets for academic use.</p>
+                </div>
+                <div class="pipeline-step">
+                  <strong>Step 3</strong>
+                  <p>Build interpretable models for behavior understanding and energy analysis.</p>
+                </div>
+                <div class="pipeline-step">
+                  <strong>Step 4</strong>
+                  <p>Release benchmarks and scientific findings for reproducible research.</p>
+                </div>
+              </div>
+            </section>
           </article>
-          <article class="member-card">
-            <div class="avatar">GS</div>
-            <h3>Student XXX</h3>
-            <p class="member-role">Graduate Student</p>
-            <p>
-              Works on multimodal sensing, representation learning, and
-              downstream analysis of transportation datasets.
-            </p>
+
+          <article id="page-members" class="page-panel">
+            <div class="panel-heading">
+              <div>
+                <p class="section-tag">Members</p>
+                <h2>Research Team</h2>
+              </div>
+              <p class="panel-kicker">People and roles</p>
+            </div>
+
+            <section class="card pi-card">
+              <div class="avatar avatar-large">XX</div>
+              <div>
+                <h3>Prof. XX</h3>
+                <p class="member-role">Faculty Advisor / Principal Investigator</p>
+                <p>
+                  XX
+                </p>
+              </div>
+            </section>
+
+            <div class="member-grid">
+              <article class="member-card">
+                <div class="avatar">XX</div>
+                <h3>XX</h3>
+                <p class="member-role">PhD Student</p>
+                <p>XX</p>
+              </article>
+
+              <article class="member-card">
+                <div class="avatar">XX</div>
+                <h3>XX</h3>
+                <p class="member-role">PhD Student</p>
+                <p>XX</p>
+              </article>
+
+              <article class="member-card">
+                <div class="avatar">XX</div>
+                <h3>XX</h3>
+                <p class="member-role">PhD Student</p>
+                <p>XX</p>
+              </article>
+
+              <article class="member-card">
+                <div class="avatar">XX</div>
+                <h3>XX</h3>
+                <p class="member-role">Research Assistant</p>
+                <p>XX</p>
+              </article>
+            </div>
           </article>
-        </div>
-      </div>
-    </section>
 
-    <section id="publications" class="section">
-      <div class="container">
-        <div class="section-heading">
-          <p class="section-tag">Publications</p>
-          <h2>Selected Papers</h2>
-          <p>
-            Representative publications related to electric vehicles,
-            multimodal sensing, and intelligent transportation data.
-          </p>
-        </div>
+          <article id="page-publications" class="page-panel">
+            <div class="panel-heading">
+              <div>
+                <p class="section-tag">Publications</p>
+                <h2>Selected Publications</h2>
+              </div>
+              <p class="panel-kicker">Representative papers</p>
+            </div>
 
-        <div class="publication-year">
-          <h3>2026</h3>
-          <ol class="pub-list">
-            <li>
-              Author A, Author B, "Benchmarking Multimodal EV Driving Data for
-              Urban Scenario Analysis," <em>Conference/Journal</em>, 2026.
-            </li>
-            <li>
-              Author A, Author B, "Energy-Aware Modeling from Large-Scale
-              Electric Vehicle Telemetry," <em>Conference/Journal</em>, 2026.
-            </li>
-          </ol>
-        </div>
+            <div class="publication-stack">
+              <section class="publication-year">
+                <h3>2025</h3>
+                <ol class="pub-list">
+                  <li>
+                    Ke Ma, et al. Real-world automated vehicle energy
+                    consumption analysis. <em>Transportation Research Part
+                    C</em>, 2025.
+                  </li>
+                  <li>
+                    Ke Ma, et al. Control and stability of automated vehicles
+                    in real-world experiments. <em>ICRA</em>, 2025.
+                  </li>
+                </ol>
+              </section>
 
-        <div class="publication-year">
-          <h3>2025</h3>
-          <ol class="pub-list">
-            <li>
-              Author A, Author B, "Synchronized Sensing for Intelligent Driving
-              Dataset Construction," <em>Conference/Journal</em>, 2025.
-            </li>
-            <li>
-              Author A, Author B, "Driving-State-Aware EV Energy Consumption
-              Analysis," <em>Conference/Journal</em>, 2025.
-            </li>
-          </ol>
-        </div>
-      </div>
-    </section>
+              <section class="publication-year">
+                <h3>2024</h3>
+                <ol class="pub-list">
+                  <li>
+                    Ke Ma, et al. Multimodal data-driven modeling for connected
+                    vehicles. <em>Energy</em>, 2024.
+                  </li>
+                  <li>
+                    Ke Ma, et al. Learning-based control for connected vehicle
+                    coordination under mixed traffic conditions. <em>IEEE
+                    Transactions on Intelligent Transportation Systems</em>,
+                    2024.
+                  </li>
+                </ol>
+              </section>
 
-    <section id="gallery" class="section alt">
-      <div class="container">
-        <div class="section-heading">
-          <p class="section-tag">Gallery</p>
-          <h2>Fieldwork and Data Collection</h2>
-          <p>
-            A visual overview of our experiments, sensing systems, and dataset
-            acquisition activities.
-          </p>
-        </div>
+              <section class="publication-year">
+                <h3>2023</h3>
+                <ol class="pub-list">
+                  <li>
+                    Ke Ma, et al. Emissions-aware motion planning for automated
+                    and connected vehicles in urban corridors.
+                    <em>Transportation Research Record</em>, 2023.
+                  </li>
+                </ol>
+              </section>
+            </div>
+          </article>
 
-        <div class="gallery-grid">
-          <figure class="gallery-card">
-            <div class="gallery-art road"></div>
-            <figcaption>On-road multimodal recording sessions.</figcaption>
-          </figure>
-          <figure class="gallery-card">
-            <div class="gallery-art dashboard"></div>
-            <figcaption>In-vehicle telemetry and sensor synchronization.</figcaption>
-          </figure>
-          <figure class="gallery-card">
-            <div class="gallery-art lab"></div>
-            <figcaption>Lab-side data review, annotation, and validation.</figcaption>
-          </figure>
-          <figure class="gallery-card">
-            <div class="gallery-art map"></div>
-            <figcaption>Route coverage analysis for urban mobility studies.</figcaption>
-          </figure>
-        </div>
-      </div>
-    </section>
+          <article id="page-dataset" class="page-panel">
+            <div class="panel-heading">
+              <div>
+                <p class="section-tag">Dataset</p>
+                <h2>PAVE Dataset</h2>
+              </div>
+              <p class="panel-kicker">Production Autonomous Vehicle Evaluation</p>
+            </div>
 
-    <section id="contact" class="section">
-      <div class="container contact-panel">
-        <div>
-          <p class="section-tag">Contact</p>
-          <h2>Collaborate With Us</h2>
-        </div>
-        <div class="contact-details">
-          <p><strong>Email:</strong> yourlab@example.com</p>
-          <p><strong>Address:</strong> HKUST(GZ), Intelligent Transportation Domain</p>
+            <div class="dataset-hero">
+              <section class="card feature-card">
+                <h3>Overview</h3>
+                <p>
+                  PAVE is a real-world end-to-end dataset designed for
+                  production autonomous vehicle evaluation. The current release
+                  provides a selected academic subset for non-commercial
+                  research with synchronized sensors and high-precision
+                  localization.
+                </p>
+                <p>
+                  Compared with conventional perception-oriented datasets, PAVE
+                  is positioned for system-level evaluation of autonomous
+                  driving behavior, safety, and trajectory quality under
+                  identified autonomous driving mode.
+                </p>
+
+                <div class="button-row">
+                  <a
+                    class="button-link"
+                    href="https://kite-lab.github.io/PAVE_Dataset/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >Open Dataset Page</a>
+                  <a
+                    class="button-link secondary-link"
+                    href="https://github.com/KITE-Lab/PAVE_Dataset"
+                    target="_blank"
+                    rel="noreferrer"
+                  >GitHub Repository</a>
+                </div>
+              </section>
+
+              <aside class="card dataset-side">
+                <h3>Release Snapshot</h3>
+                <ul class="doc-list">
+                  <li>Autonomous-mode road logs</li>
+                  <li>Synchronized image and video streams</li>
+                  <li>GNSS / IMU with high-precision localization</li>
+                  <li>Calibration files and benchmark-oriented packaging</li>
+                </ul>
+              </aside>
+            </div>
+
+            <div class="dataset-grid">
+              <article class="mini-card">
+                <span class="card-index">01</span>
+                <h3>Highlights</h3>
+                <p>
+                  Research-oriented release for safety analysis, behavior
+                  understanding, reliability evaluation, and future benchmark
+                  development.
+                </p>
+              </article>
+
+              <article class="mini-card">
+                <span class="card-index">02</span>
+                <h3>Sensor Setup</h3>
+                <p>
+                  Includes front and side cameras, GNSS / IMU, and
+                  synchronization support for cross-modal analysis and
+                  trajectory reconstruction.
+                </p>
+              </article>
+
+              <article class="mini-card">
+                <span class="card-index">03</span>
+                <h3>Access</h3>
+                <p>
+                  Released as an academic non-commercial subset with formal
+                  citation requirements and separate contact for full-data or
+                  commercial licensing.
+                </p>
+              </article>
+            </div>
+
+            <div class="dataset-detail-grid">
+              <section class="card">
+                <h3>Included Modalities</h3>
+                <ul class="doc-list">
+                  <li>Image sequences for visual analysis</li>
+                  <li>Video streams for session-level evaluation</li>
+                  <li>GNSS / IMU logs for localization and temporal alignment</li>
+                  <li>Calibration files for reproducible processing</li>
+                  <li>Safety-oriented material for behavior analysis</li>
+                </ul>
+              </section>
+
+              <section class="card">
+                <h3>Access and Citation</h3>
+                <p>
+                  The public release is intended for academic research,
+                  scientific investigation, and non-commercial benchmarking.
+                  Proper citation of the dataset paper is required for any
+                  research output using the data.
+                </p>
+                <div class="stack-links">
+                  <a
+                    class="inline-link"
+                    href="https://arxiv.org/abs/2511.14185"
+                    target="_blank"
+                    rel="noreferrer"
+                  >Dataset paper</a>
+                  <a
+                    class="inline-link"
+                    href="mailto:kema@hkust-gz.edu.cn"
+                  >Dataset contact</a>
+                </div>
+              </section>
+            </div>
+          </article>
+
+          <article id="page-contact" class="page-panel">
+            <div class="panel-heading">
+              <div>
+                <p class="section-tag">Contact</p>
+                <h2>Contact Information</h2>
+              </div>
+              <p class="panel-kicker">Get in touch</p>
+            </div>
+
+            <div class="contact-grid">
+              <section class="card">
+                <h3>Lab Contact</h3>
+                <div class="meta-list">
+                  <p><strong>Email:</strong> itevlab@example.edu</p>
+                  <p><strong>Affiliation:</strong> HKUST(GZ), Intelligent Transportation Domain</p>
+                  <p><strong>Location:</strong> Guangzhou, China</p>
+                </div>
+              </section>
+
+              <section class="card">
+                <h3>Collaboration</h3>
+                <p>
+                  We welcome academic collaboration on intelligent
+                  transportation systems, EV energy datasets, multimodal
+                  sensing, and benchmark-oriented mobility research.
+                </p>
+                <p>
+                  Prospective students and collaborators may contact the lab by
+                  email with a short introduction and research interests.
+                </p>
+              </section>
+            </div>
+          </article>
         </div>
       </div>
     </section>
   </main>
 
   <footer class="footer">
-    <div class="container">
-      <p>&copy; 2026 Intelligent Transportation Research Group</p>
+    <div class="container footer-inner">
+      <p>&copy; 2026 Intelligent Transportation and EV Data Lab</p>
+      <p>Academic lab website | Static GitHub Pages compatible</p>
     </div>
   </footer>
 </body>
